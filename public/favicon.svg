@@ -1,0 +1,56 @@
+<svg id="blah" xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+    <defs>
+        <g id="headset" stroke-width="0">
+            <path
+                d="
+                M -.12 -.08
+                A .1 .1 0 0 1 .12 -.08
+                L .11 -.05
+                A .11 .1 0 0 0 -.11 -.05
+                "
+            />
+            <path
+                d="
+                M -.11 -.07
+                A .11 .08 0 0 0 -.11 .07
+                A .06 .1 0 0 0 -.11 -.07
+                "
+            />
+            <path
+                d="
+                M .11 -.07
+                A .11 .08 0 0 1 .11 .07
+                A .05 .1 0 0 1 .11 -.07
+                "
+            />
+            <path
+                d="
+                M .11 .07
+                A .10 .10 0 0 1 0 .14
+                L .01 .12
+                A .10 .10 0 0 0 .11 .07
+                "
+            />
+            <circle r=".02" cy=".13"/>
+        </g>
+    </defs>
+    <g>
+        <use id="headset-icon" href="#headset" y=".02" transform="scale(250)"/>
+    </g>
+    <style>
+        path, circle, .av-font, .scribe-font {
+            fill: #000;
+        }
+        svg {
+            background-color: white;
+        }
+        @media (prefers-color-scheme: dark) {
+            path, circle, .av-font, .scribe-font {
+                fill: #fff;
+            }
+            svg {
+                background-color: #181818;
+            }
+        }
+    </style>
+</svg>

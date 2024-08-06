@@ -47,10 +47,10 @@
 
 <template>
   <header>
-    <div>
-      <h1 align="center">AVWX Scribe</h1>
-      <Disclaimer/>
+    <div position="relative" width="100%" style="width: 100%; height: 100vmin">
+        <iframe src="logo.svg" frameBorder="0" style="width:100%; height:100%"></iframe>
     </div>
+    <Disclaimer/>
   </header>
 
   <main align="center">
@@ -110,6 +110,7 @@
     .logo {
       display: block;
       margin: 0 auto 2rem;
+      width: 100vh;
     }
 
     @media (min-width: 1024px) {
